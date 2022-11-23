@@ -28,7 +28,7 @@ def home():
     return 'RAS'
 
 if __name__ =='__main__':
-    app.run(host = '172.16.3.120', debug = True)
+    app.run(host = 'https://app-hackathon-iu-2022.herokuapp.com', debug = True)
 
 #app.run(host, port, debug, options)
 #host : The default hostname is 127.0.0.1, i.e. localhost.
