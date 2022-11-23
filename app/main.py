@@ -6,7 +6,7 @@ app = Flask(__name__) #creating the Flask class object
 
 @app.route('/hello', methods = ['GET'])
 def hello():
-    return 'Hello world';
+    return '<h1>Hello world</h1>';
 
 
 @app.route('/', methods = ['POST']) #decorator drfines the
